@@ -1,0 +1,66 @@
+.homescreen__features_sectitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 0;
+  font-family: "Great Vibes";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  background: linear-gradient(
+    270deg,
+    #e11155 54.69%,
+    #e37313 100%,
+    #402b75 50%
+  );
+  -webkit-background-clip: text; /* For webkit-based browsers like Chrome and Safari */
+  background-clip: text; /* Standard property for most modern browsers */
+  color: transparent; /* Make the text transparent so that the gradient shows through */
+}
+.homescreen__features_secheading {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.homescreen__features_seccards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
+  flex-wrap: wrap;
+}
+.homescreen__features_seccard {
+  padding: 10px;
+}
+.homescreen__features_secrtrmbtn {
+  background: linear-gradient(
+    269.07deg,
+    #d9d9d9 0.51%,
+    rgba(217, 217, 217, 0) 107.82%
+  );
+  width: 160px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+}
+.homescreen__features_secrtrmbtn:hover {
+  color: black;
+}

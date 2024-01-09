@@ -1,0 +1,111 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #fff;
+  color: black;
+  padding: 20px 50px;
+}
+.navbar__brand_name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.navbar__menu {
+  margin-left: auto;
+}
+.navbar__menu ul {
+  display: flex;
+  padding: 0;
+}
+.navbar__menu li {
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navbar__menu li a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+.navbar__menuitem_link {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: rgba(35, 31, 32, 1);
+}
+.navbar__menuitem_linkactive {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 4px 15px;
+  border-radius: 6px;
+  color: white;
+  background: rgba(65, 43, 117, 1);
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px 0;
+  }
+  .navbar__brand_name img {
+    height: 40px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .navbar__menu ul {
+    display: none;
+  }
+  .navbar__menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 97px);
+    background-color: white;
+    border-top: 1px solid black;
+    z-index: 10;
+  }
+  .navbar__menu li {
+    text-align: center;
+    margin: 0;
+  }
+  .navbar__menu li a {
+    color: black;
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navbar__menu li .navbar__menuitem_linkactive {
+    color: white;
+  }
+  .navbar__menu li:hover {
+    background-color: #eee;
+  }
+  .navbar__menu.navbar__menu_expanded ul {
+    display: block;
+  }
+}

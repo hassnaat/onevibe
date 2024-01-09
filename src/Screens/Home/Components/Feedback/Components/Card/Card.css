@@ -1,0 +1,62 @@
+.feedback__card_wrap {
+  width: 530px;
+  max-width: 95%;
+  min-height: 319px;
+  padding: 25px 30px;
+  border-radius: 15px;
+  background: rgba(247, 247, 247, 1);
+  margin-top: 20px;
+}
+.feedback__card_header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+.feedback__card_hleft {
+  display: flex;
+  align-items: center;
+}
+.feedback__card_lfpic {
+  max-width: 75px;
+  max-height: 75px;
+  margin-right: 10px;
+}
+.feedback__card_lfpic > img {
+  max-width: 100%;
+  object-fit: contain;
+}
+.feedback__card_hlcheading {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+}
+.feedback__card_hlctitle {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  margin-top: 2px;
+}
+.feedback__card_body {
+  padding-top: 20px;
+}
+.feedback__card_bheading {
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+.feedback__card_bdescription {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  color: rgba(61, 61, 61, 1);
+}

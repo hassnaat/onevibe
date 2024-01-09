@@ -1,0 +1,8 @@
+/* Greate Vibes fonts  */
+@font-face {
+  font-family: "Great Vibes";
+  src: url("./assets/fonts/greatvibes/GreatVibes-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

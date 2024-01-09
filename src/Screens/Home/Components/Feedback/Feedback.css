@@ -1,0 +1,62 @@
+.homescreen__feedback_section {
+  padding: 50px;
+}
+.homescreen__feedback_sectitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 0;
+  font-family: "Great Vibes";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  background: linear-gradient(
+    270deg,
+    #e11155 54.69%,
+    #e37313 100%,
+    #402b75 50%
+  );
+  -webkit-background-clip: text; /* For webkit-based browsers like Chrome and Safari */
+  background-clip: text; /* Standard property for most modern browsers */
+  color: transparent; /* Make the text transparent so that the gradient shows through */
+}
+.homescreen__feedback_secheading {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.feedback__carcustom__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 400px;
+}
+
+.feedback__carcustom__dots button {
+  width: 15px;
+  height: 15px;
+  background: rgba(101, 101, 101, 1);
+  border-radius: 50%;
+}
+
+.homescreen__feedback_section .react-multi-carousel-list {
+  padding: 50px 0;
+}
+.homescreen__feedback_section .react-multi-carousel-dot--active button {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border: 4px solid rgba(255, 175, 64, 1);
+}
+.homescreen__feedback_section .react-multiple-carousel__arrow {
+  display: none;
+}

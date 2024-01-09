@@ -1,0 +1,122 @@
+.footer__wrap {
+  background: rgba(23, 23, 23, 1);
+  min-height: 376px;
+  padding: 30px 5%;
+}
+.footer__wrap_options1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+.footer__wrap_opt1item {
+  margin: 15px;
+  display: flex;
+  width: 100%;
+  max-width: 330px;
+  color: white;
+  min-width: 300px;
+  height: 100px;
+  align-items: flex-start;
+}
+.footer__wrap_o1itemicnwrap {
+  width: 61px;
+  min-width: 61px;
+  height: 61px;
+  background: linear-gradient(360deg, #e10c59 0%, #e24731 56.67%, #e37512 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.footer__wrap_o1icontentwrap {
+  padding-left: 10px;
+  flex: 1;
+}
+.footer__wrap_o1icheading {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+}
+.footer__wrap_o1icdesc {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.footer__wrap_options2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid rgba(44, 44, 44, 1);
+  border-bottom: 1px solid rgba(44, 44, 44, 1);
+  flex-wrap: wrap;
+}
+.footer__wrap_opt2item {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 5px 20px;
+  min-width: fit-content;
+}
+.footer__wrap_opt2item:hover {
+  color: white;
+}
+.footer__wrap_options3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.footer__wrap_opt3item {
+  color: rgba(119, 119, 119, 1);
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 5px 20px;
+  min-width: fit-content;
+}
+.footer__wrap_opt3item:hover {
+  color: rgba(119, 119, 119, 1);
+}
+.footer__wrap_options4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  flex-wrap: wrap;
+}
+.footer__wrap_opt4item {
+  padding: 5px;
+  min-width: fit-content;
+}
+.bottom__copyright_text {
+  width: 100%;
+  padding: 20px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

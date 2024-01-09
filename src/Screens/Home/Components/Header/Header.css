@@ -1,0 +1,25 @@
+.header__wrap .react-multiple-carousel__arrow {
+  display: none;
+}
+.header__carcustom__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__wrap .react-multi-carousel-dot button {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  border: none;
+}
+.header__wrap .react-multi-carousel-dot--active button {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 50%;
+  border: 4px solid rgba(226, 20, 84, 1);
+  position: relative;
+  bottom: 2.6px;
+}
